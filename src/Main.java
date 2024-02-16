@@ -30,6 +30,13 @@ public class Main {
 //        print by index
 
         }
+        public static void printAll(){
+            for (int i = 0; i < todos.size() ; i++) {
+                System.out.println(todos.get(i));
+            }
+        }
     }
+
+
     
 
